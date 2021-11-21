@@ -3,3 +3,21 @@
    <i class="pi pi-search"></i>
    <input type="text" pInputText [(ngModel)]="search" placeholder="Search" />         
 </span>
+
+<h2>Multiple checkbox</h2>
+<div class="field-checkbox">
+    <p-checkbox name="checkbox_group" value="Granada" [(ngModel)]="cities" inputId="gr"></p-checkbox>
+    <label for="gr">Granada</label>
+</div>
+<div class="field-checkbox">
+    <p-checkbox name="checkbox_group" value="Vigo" [(ngModel)]="cities" inputId="vg"></p-checkbox>
+    <label for="vg">Vigo</label>
+</div>
+<div class="field-checkbox">
+    <p-checkbox name="checkbox_group" value="Toledo" [(ngModel)]="cities" inputId="tl"></p-checkbox>
+    <label for="tl">Toledo</label>
+</div>
+<div class="field-checkbox">
+    <p-checkbox name="checkbox_group" value="Girona" [(ngModel)]="cities" inputId="gi"></p-checkbox>
+    <label for="gi">Girona</label>
+</div>
